@@ -3,6 +3,12 @@
 
     <TheNavbar />
 
+
+    <main>
+      <div class="container padding-top">
+        <h1 class="text-light fs-6 text "> --> CONTENT GOES HERE -- </h1>
+      </div>
+    </main>
     <TheFooter />
 
     <BannerSignUp />
@@ -37,5 +43,8 @@ export default {
 }
 .body{
   background-color: black;
+}
+.padding-top{
+  padding-top: 4rem;
 }
 </style>
