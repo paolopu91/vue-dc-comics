@@ -1,18 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="body">
+
+    <TheNavbar />
+
+    <TheFooter />
+
+    <BannerSignUp />
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import TheFooter from './components/TheFooter.vue'
+import TheNavbar from './components/TheNavbar.vue'
+import BannerSignUp from './components/BannerSignUp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    TheFooter,
+    TheNavbar,
+    BannerSignUp
+}
 }
 </script>
 
@@ -24,5 +34,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.body{
+  background-color: black;
 }
 </style>
