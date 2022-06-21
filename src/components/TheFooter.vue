@@ -2,15 +2,15 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col d-flex py-5 my-font-size">
+                <div class="col d-flex pt-5 mt-2 my-font-size">
                     <div class="col">
-                            <h2 class="text-light">
+                            <h2 class="text-light fs-4 text">
                                 DC COMICS
                             </h2>
                             <ul class="list-unstyled text-white-50">
                                 <li :key="i" v-for="(link,i) in linkFooterComics"> {{link}} </li>
                             </ul>
-                            <h2 class="text-light">
+                            <h2 class="text-light fs-4 text">
                                 SHOP
                             </h2>
                             <ul class="list-unstyled text-white-50">
@@ -18,7 +18,7 @@
                             </ul>
                     </div>
                     <div class="col">
-                            <h2 class="text-light">
+                            <h2 class="text-light fs-4 text">
                                 DC
                             </h2>
                             <ul class="list-unstyled text-white-50">
@@ -26,7 +26,7 @@
                             </ul>
                     </div>
                     <div class="col">
-                            <h2 class="text-light">
+                            <h2 class="text-light fs-4 text">
                                 SITES
                             </h2>
                             <ul class="list-unstyled text-white-50">
@@ -63,8 +63,7 @@
 <style>
 footer{
     background-image: url("/public/img/footer-bg.jpg");
-    position: relative;
-    top: 30px;
+    margin-top: 3rem;
 }
 .my-font-size{
     font-size: 15px;
