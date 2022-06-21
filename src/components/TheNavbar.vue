@@ -7,9 +7,9 @@
                 <img src="/img/dc-logo.png" alt="Logo Dc">
 
             </div>   
-                <ul class="nav flex-nowrap ">
+                <ul class="nav flex-nowrap">
                     <li class="nav-item my-font-size" :key="i" v-for="(link,i) in navLinks">
-                        <a class="nav-link active" aria-current="page" :href="link.href">
+                        <a class="nav-link active text-dark" aria-current="page" :href="link.href">
                         {{link.name}}
                         </a>
                     </li>
@@ -81,7 +81,6 @@
     }
     .my-font-size{
         font-size: 15px;
-        color: black;
     }
     .my-font-size:hover{
         border-bottom: 4px solid blue;

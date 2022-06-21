@@ -44,7 +44,7 @@
 
 
 
-<style>
+<style scoped>
 .section-sign-up{
     background-color: #303030;
     position: relative;
