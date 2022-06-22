@@ -5,10 +5,9 @@
 
 
     <main>
-      <div class="container padding-top">
-        <h1 class="text-light fs-6 text "> --> CONTENT GOES HERE -- </h1>
-      </div>
+      <TheCardDc />
     </main>
+    
     <TheFooter />
 
     <BannerSignUp />
@@ -21,13 +20,15 @@
 import TheFooter from './components/TheFooter.vue'
 import TheNavbar from './components/TheNavbar.vue'
 import BannerSignUp from './components/BannerSignUp.vue'
+import TheCardDc from './components/TheCardDc.vue'
 
 export default {
   name: 'App',
   components: {
     TheFooter,
     TheNavbar,
-    BannerSignUp
+    BannerSignUp,
+    TheCardDc
 }
 }
 </script>
