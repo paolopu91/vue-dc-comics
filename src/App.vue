@@ -5,9 +5,9 @@
 
 
     <main>
-      <TheCardDc />
+      <TheCardDc></TheCardDc>
     </main>
-    
+
     <TheFooter />
 
     <BannerSignUp />
