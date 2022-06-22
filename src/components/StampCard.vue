@@ -23,6 +23,7 @@
 
 <style scoped>
 .my-font-size{
+    padding-top: .5rem;
     font-size: 15px;
     color:white;
 }

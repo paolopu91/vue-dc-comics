@@ -3,9 +3,11 @@
 
     <TheNavbar />
 
-
+  
     <main>
-      <TheCardDc></TheCardDc>
+      <TheCardDc>
+        
+      </TheCardDc>
     </main>
 
     <TheFooter />

@@ -7,9 +7,12 @@
 
   </div>
 
+
   <!-- secondo div con le card all'interno -->
   <div class="bg-dark">
     <div class="container">
+        <!-- button current series here  -->
+        <button class="my-btn btn btn-primary">CURRENT SERIES</button>
         <div class="row">
             <div class="col-2" v-for="card in cardDc" :key="card.thumb">
                 <StampCard :titolo="card.series" :img="card.thumb">
@@ -123,7 +126,11 @@ export default{
 
 
 <!-- Qui andrò a mettere il mio css o il mio scss -->
-<style>
+<style scoped>
+.my-btn{
+    position: relative;
+    bottom: 20px;
+}
 .section-banner-dc{
     height: 450px;
     background-image: url("/public/img/jumbotron.jpg");
