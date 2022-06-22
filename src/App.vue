@@ -10,6 +10,8 @@
       </TheCardDc>
     </main>
 
+    <!-- qui devo aggiungere il componente blu con le immagini -->
+    <BannerBlu />
     <TheFooter />
 
     <BannerSignUp />
@@ -23,6 +25,7 @@ import TheFooter from './components/TheFooter.vue'
 import TheNavbar from './components/TheNavbar.vue'
 import BannerSignUp from './components/BannerSignUp.vue'
 import TheCardDc from './components/TheCardDc.vue'
+import BannerBlu from './components/BannerBlu.vue'
 
 export default {
   name: 'App',
@@ -30,7 +33,8 @@ export default {
     TheFooter,
     TheNavbar,
     BannerSignUp,
-    TheCardDc
+    TheCardDc,
+    BannerBlu
 }
 }
 </script>
