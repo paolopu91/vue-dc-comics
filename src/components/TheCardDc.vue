@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-2" v-for="card in cardDc" :key="card.thumb">
-                <StampCard :titolo="card.series">
+                <StampCard :titolo="card.series" :img="card.thumb">
                 </StampCard>
             </div>
         </div>

@@ -63,9 +63,9 @@
 <style scoped>
 footer{
     background-image: url("/public/img/footer-bg.jpg");
-    margin-top: 3rem;
 }
 .my-font-size{
     font-size: 15px;
 }
+
 </style>

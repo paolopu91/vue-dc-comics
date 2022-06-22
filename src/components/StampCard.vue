@@ -1,8 +1,8 @@
 <template>
-    <div class="card">
+    <div class="py-4">
         <img :src="img" :alt="`Immagine del fumetto ${titolo}`">
-        <div class="card-body">
-            <h5>{{ titolo }}</h5>
+        <div class="">
+            <h5 class="my-font-size">{{ titolo }}</h5>
         </div>
     </div>
 </template>
@@ -21,5 +21,10 @@
 </script>
 
 
-<style>
+<style scoped>
+.my-font-size{
+    font-size: 15px;
+    color:white;
+}
+
 </style>
